@@ -1,8 +1,9 @@
 node_modules/
-build/
 dist/
-coverage/
-.DS_Store
-*.log
-.env*
-!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.env
+backend/data/
+backend/chroma_db/
+*.sqlite3
